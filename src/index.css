@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+/* • bg-[#171717] p-6 rounded-xl border border-emerald-500/20 hover:border-emerald-500/80 shadow-[0_0_10px_rgba(16,185,129,0.05)] hover:shadow-[0_0_20px_rgba(16,185,129,0.2)] transition-all duration-300
+
+
+Opsi B (Glow Ungu):
+• Nama Class Lengkap:
+bg-[#171717] p-6 rounded-xl border border-purple-500/20 hover:border-purple-500/80 shadow-[0_0_10px_rgba(168,85,247,0.05)] hover:shadow-[0_0_20px_rgba(168,85,247,0.2)] transition-all duration-300 */
