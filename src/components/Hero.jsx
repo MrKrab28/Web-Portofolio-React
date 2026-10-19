@@ -27,7 +27,7 @@ const Hero = () => {
               href=""
               className="border-2 border-zinc-700 text-white font-medium px-6 py-3 rounded-lg text-sm transition-all duration-300  hover:border-blue-600 hover:shadow-[0_0_25px_rgba(30,58,138,0.8),0_0_80px_rgba(30,58,138,0.5)]"
             >
-            <i class="ri-file-download-line ri-xl"></i> Download CV
+            <i className="ri-file-download-line ri-xl"></i> Download CV
             </a>
             {/* <a
               href=""

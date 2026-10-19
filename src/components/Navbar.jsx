@@ -23,9 +23,9 @@ const Navbar = () => {
           Portofolio
         </h1>
       </div>
-      <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:translate-x-0 md:opacity-100 bg-white/10 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all duration-400 ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
+      <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:translate-x-0 md:opacity-100 bg-white/10 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all duration-400  ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
         <li>
-          <a href="" className="sm:text-lg text-base font-medium">
+          <a href="" className="sm:text-lg text-base font-medium hover:border-blue-600 hover:shadow-[0_0_25px_rgba(30,58,138,0.8),0_0_80px_rgba(30,58,138,0.5)]">
             Beranda
           </a>
         </li>
