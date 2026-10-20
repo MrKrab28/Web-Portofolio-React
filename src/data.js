@@ -2,26 +2,27 @@
 import HeroImage from "/assets/hero-image3.webp";
 
 const Image = {
-  HeroImage, 
+  HeroImage,
 };
 // const Image2 = {
-//   HeroImage2, 
+//   HeroImage2,
 // };
-
 
 export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
+import Tools3 from "/assets/tools/laravel.png";
 import Tools4 from "/assets/tools/tailwind.png";
 import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
+import Tools9 from "/assets/tools/PHP-logo.png";
 import Tools10 from "/assets/tools/canva.png";
 import Tools11 from "/assets/tools/figma.png";
+import Tools13 from "/assets/tools/flutter.png";
+import Tools14 from "/assets/tools/dart.png";
 
 export const listTools = [
   {
@@ -31,6 +32,7 @@ export const listTools = [
     ket: "Code Editor",
     dad: "100",
   },
+
   {
     id: 2,
     gambar: Tools2,
@@ -41,7 +43,14 @@ export const listTools = [
   {
     id: 3,
     gambar: Tools3,
-    nama: "Next JS",
+    nama: "Laravel",
+    ket: "Framework",
+    dad: "300",
+  },
+  {
+    id: 13,
+    gambar: Tools13,
+    nama: "Flutter",
     ket: "Framework",
     dad: "300",
   },
@@ -60,9 +69,23 @@ export const listTools = [
     dad: "500",
   },
   {
+    id: 9,
+    gambar: Tools9,
+    nama: "PHP",
+    ket: "Language",
+    dad: "900",
+  },
+  {
     id: 6,
     gambar: Tools6,
     nama: "Javascript",
+    ket: "Language",
+    dad: "600",
+  },
+  {
+    id: 14,
+    gambar: Tools6,
+    nama: "Dart",
     ket: "Language",
     dad: "600",
   },
@@ -80,13 +103,7 @@ export const listTools = [
     ket: "Repository",
     dad: "800",
   },
-  {
-    id: 9,
-    gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
-    dad: "900",
-  },
+
   {
     id: 10,
     gambar: Tools10,
@@ -160,4 +177,3 @@ export const listProyek = [
     dad: "700",
   },
 ];
-
