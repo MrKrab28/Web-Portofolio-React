@@ -42,8 +42,8 @@ const about = () => {
           </div>
         </div>
         <div className="tools mt-32">
-          <h1 className="text-4xl/snug font-bold mb-4">tools yang dipakai</h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-3/4 sm:w-3/4 w-full mx-auto text-base/loose opacity-50">Tecth Stack</p>
+          <h1 className="text-4xl/snug font-black mb-4 text-center">Tech Stack</h1>
+          {/* <p className="xl:w-2/5 lg:w-2/4 md:w-3/4 sm:w-3/4 w-full mx-auto text-base/loose opacity-50">Tecth Stack</p> */}
           <div className="tools-box mt-14 grid lg:grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
 
             {listTools.map(tool => (
