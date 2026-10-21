@@ -3,8 +3,8 @@ import { listTools } from "../data";
 const about = () => {
   return (
     <>
-      <div className="tentang mt-32 py-10">
-        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+      <div className="tentang mt-32 py-10 ">
+        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
           <img
             src={DataImage.HeroImage}
             alt="image"
@@ -41,14 +41,14 @@ const about = () => {
             </div>
           </div>
         </div>
-        <div className="tools mt-32">
-          <h1 className="text-4xl/snug font-black mb-4 text-center">Tech Stack</h1>
+        <div className="tools mt-32" >
+          <h1 className="text-4xl/snug font-black mb-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Tech Stack</h1>
           {/* <p className="xl:w-2/5 lg:w-2/4 md:w-3/4 sm:w-3/4 w-full mx-auto text-base/loose opacity-50">Tecth Stack</p> */}
-          <div className="tools-box mt-14 grid lg:grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+          <div className="tools-box mt-14 grid lg:grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1" >
 
             {listTools.map(tool => (
 
-            <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tool.id}>
+            <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tool.id} data-aos="fade-down" data-aos-duration="1000" data-aos-delay={tool.dad} data-aos-once="true">
               <img
                 src={tool.gambar}
                 alt="Tools Image"

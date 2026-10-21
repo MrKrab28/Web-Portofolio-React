@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero grid md:grid-cols-2 pt-10 xl:gap-0 gap-6 grid-cols-1">
-        <div className="">
+        <div className="animate__animated animate__fadeInRight animate__delay-2s">
           <div className="flex items-center gap-3 mb-6 mt-10 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img
               src={DataImage.HeroImage}
@@ -47,7 +47,7 @@ const Hero = () => {
         <img
           src={DataImage.HeroImage}
           alt="Hero Image"
-          className="md:ml-auto w-125 rounded-b-full object-cover"
+          className="md:ml-auto w-125 rounded-b-full object-cover animate__animated animate__fadeInLeft animate__delay-2s"
         />
       </div>
     </>
